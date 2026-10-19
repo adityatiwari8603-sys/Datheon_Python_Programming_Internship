@@ -1,0 +1,91 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "\\bhello\\b",
+        "\\bhi\\b",
+        "\\bhey\\b",
+        "\\bgood morning\\b"
+      ],
+      "response": "Hello! How can I help you today?"
+    },
+    {
+      "tag": "business_hours",
+      "patterns": [
+        "\\bhours\\b",
+        "\\bopening time\\b",
+        "\\bclosing time\\b",
+        "\\bwhen are you open\\b"
+      ],
+      "response": "Our business hours are Monday to Saturday, 9 AM to 6 PM."
+    },
+    {
+      "tag": "products",
+      "patterns": [
+        "\\bwhat products?\\b",
+        "\\bwhich products?\\b",
+        "\\bwhat items?\\b",
+        "\\bwhat do you sell\\b",
+        "\\bproducts? (do you sell|are available|do you offer)\\b"
+      ],
+      "response": "We offer electronics, accessories, and computer-related products."
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "\\bprice\\b",
+        "\\bprices\\b",
+        "\\bcost\\b",
+        "\\bdiscounts?\\b"
+      ],
+      "response": "Prices vary by product. Please contact our support team for the latest pricing."
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "\\bshipping\\b",
+        "\\bdelivery\\b",
+        "\\bdeliver\\b",
+        "\\bship\\b"
+      ],
+      "response": "Standard delivery usually takes 3 to 7 business days."
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "\\breturn\\b",
+        "\\breturns\\b",
+        "\\bexchange\\b"
+      ],
+      "response": "Products can be returned within 7 days if they meet our return conditions."
+    },
+    {
+      "tag": "refunds",
+      "patterns": [
+        "\\brefund\\b",
+        "\\brefunds\\b",
+        "\\bmoney back\\b"
+      ],
+      "response": "Approved refunds are generally processed within 5 to 10 business days."
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "\\bcontact\\b",
+        "\\bsupport team\\b",
+        "\\bhelpdesk\\b",
+        "\\bcustomer care\\b"
+      ],
+      "response": "You can reach our customer support team through the contact form on our website."
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "\\bthank you\\b",
+        "\\bthanks\\b"
+      ],
+      "response": "You're welcome! Is there anything else I can help you with?"
+    }
+  ]
+}
